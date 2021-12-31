@@ -1,0 +1,64 @@
+h1 {
+    color: #97ddad;
+    border : solid;
+    margin-left : 400px;
+    padding-top:50px;
+}
+
+
+
+.THEGROUP{
+    background-color:#f40300;
+    display:flex;
+    justify-content:space-evenly
+}
+
+.THEGROUPNUMBERTWO{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap
+}
+
+.TheThreeApps{
+    display:flex;
+    justify-content:flex-end
+}
+
+h2,p{
+    text-align:center
+}
+
+.AboutMeGroup a{
+    margin-left:50px
+}
+
+a:link{
+    color:Green
+}
+
+a:visited{
+    color:white
+}
+
+.GAMENUMBER1{
+    position:relative
+}
+
+.GAMENUMBER1 p{
+    position:absolute;
+    top:50%;
+    left:50%;
+   transform:translate(-50%, -50%) ;
+   color:orangered;
+   opacity: 0;
+   
+}
+
+.GAMENUMBER1:hover p{
+    opacity: 1;
+}
+
+.GAMENUMBER1:hover img{
+    width: 600px;
+    height: 600px;
+}
